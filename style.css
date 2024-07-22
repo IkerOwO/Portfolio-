@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+svg {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+  }
+
+/* Cuerpo */
+
+body{ 
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+background-color: #e9e3e3;
+}
+
+/* Footer */
+footer {
+    z-index: 2;
+  opacity: 0.8;
+  padding: 15px;
+  border-radius: 0px;
+    background: #2C2C2C;
+    color:white;
+    text-align:center;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+  }
+
+
+/* Header */
+
+.header header{
+    z-index: 2;
+  opacity: 0.8;
+  padding: 15px;
+  border-radius: 0px;
+    background: rgba(28, 30, 34);
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 999px;
+    top: 0;
+    left: 0;
+    margin-bottom: 100px;
+}
+
+.header header a{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.header nav{
+    float: left;
+}
+
+.header nav ul{
+    list-style: none;
+    overflow: hidden;
+}
+
+.header nav ul li{
+    float: left;
+    font-size: 20px;
+}
+
+.header nav ul li a{
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header nav ul li:hover{
+    background: #b884fc;
+}
+
+
+/* Cuadro de texto */
+
+.cuadro{
+    z-index: 2;
+  opacity: 0.8;
+  padding: 15px;
+  border-radius: 15px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    height: 500px;
+    width: 1000px;
+    border: 5px solid;
+    background-color: #2C2C2C;
+}
+
+/* Texto */
+
+.cuadro h2, h4{
+    color: #fff;
+}
+
+.cuadro h4{
+    margin-top: 50px;
+}
+
+.cuadro h2{
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+/* Fondo */
+
+.titulo {
+    z-index: 2;
+    background: #FFF;
+    opacity: 0.8;
+    padding: 15px;
+    border-radius: 15px;
+  }
+  
+  .titulo h1 {
+    font-size: 2rem;
+  }
+  
+  svg {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  @keyframes girarIzquierda {
+    100% {
+        transform: rotate(-360deg);
+    }
+  }
+  
+  @keyframes girarDerecha {
+    100% {
+        transform: rotate(360deg);
+    }
+  }
+  
+  .Morado {
+    animation: girarIzquierda 40s linear infinite;
+    transform-origin: 13px 25px;
+  }
+  
+  .Violeta {
+    animation: girarDerecha 20s linear infinite;
+    transform-origin: 13px 25px;
+  }
+  
+  .azul {
+    animation: girarDerecha 25s linear infinite;
+    transform-origin: 84px 93px;
+  }
+  
+  .Morado-Claro {
+    animation: girarIzquierda 35s linear infinite;
+    transform-origin: 84px 93px;
+  }
