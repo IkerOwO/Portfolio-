@@ -49,6 +49,15 @@ footer {
 
 /* Header */
 
+.header h4{
+  margin-right: 10px;
+  margin-top: 15px;
+  position: relative;
+  display: flex;
+  float: right;
+}
+
+
 .header header{
     z-index: 2;
   opacity: 0.8;
@@ -94,6 +103,10 @@ footer {
     background: #b884fc;
 }
 
+.header li img{
+  height: 40px;
+}
+
 
 /* Cuadro de texto */
 
@@ -116,20 +129,56 @@ footer {
 
 /* Texto */
 
-.cuadro h2, h4{
+.cuadro h2, h3, h4{
     color: #fff;
 }
 
 .cuadro h4{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .cuadro h2{
-    text-decoration: underline;
     text-align: center;
     margin-top: 20px;
 }
 
+.cuadro .lenguajes h2{
+  text-align: left;
+  text-decoration: underline;
+  margin-top: 30px;
+}
+
+.contacto .lenguajes li{
+  color: #fff;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+
+.cuadro .hobbies h2{
+  text-decoration: underline;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.cuadro .hobbies h4{
+  margin-top: 10px;
+}
+
+/* Email */
+
+.contacto{
+  z-index: 2;
+  opacity: 0.8;
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 700px;
+  background-color: #2C2C2C;
+}
+
+.contacto h4{
+  text-align: center;
+}
 
 
 /* Fondo */
